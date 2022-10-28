@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Main = () => {
   return (
@@ -50,7 +51,7 @@ const Main = () => {
             <p>Ready to watch? Enter your email to create or restart your membership.</p>
             <div className="input">
                 <input type="email" name="email" placeholder="Email Address"/>
-                <a href="#" className="btn-rounded"><button>GET STARTED </button></a>
+                <NavLink to='/' className="btn-rounded"><button>GET STARTED </button></NavLink>
             </div>
         </div>
     </section>
