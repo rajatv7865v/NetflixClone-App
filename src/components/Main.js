@@ -17,7 +17,7 @@ const Main = () => {
             <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
         </div>
         <img src="Images/tv.png" alt="Netflix TV"/>
-        {/* <video className="video-1" autoplay="" playsinline="" muted="" loop=""><source src="1.m4v" type="video/mp4"></video> */}
+        <video className="video-1" autoPlay  muted loop src="Images/2.m4v" type="video/m4v"></video>
     </div>
     <div className="card-2">
         <img src="Images/3.jpg" alt="Netflix Mobile"/>
@@ -32,7 +32,7 @@ const Main = () => {
             <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
         </div>
         <img src="Images/4.png" alt="Device-Pile-In"/>
-        {/* <video className="video-2" autoplay="" playsinline="" muted="" loop=""><source src="2.m4v" type="video/mp4"></video> */}
+        <video className="video-2" autoPlay  muted loop src='Images/1.m4v' type="video/m4v"></video>
     </div>
 </section>
 

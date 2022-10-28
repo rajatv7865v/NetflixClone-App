@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Footer = () => {
   return (
     <footer className="footer">
-    <p>Questions? Call 000-800-040-1843</p>
+    <p>Questions? Call 000-000-000-0000</p>
     <div className="footer-cols">
         <ul>
             <li><NavLink to="#">FAQ</NavLink></li>
